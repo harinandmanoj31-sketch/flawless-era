@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAWLESS ERA | Redefining Modern Fashion</title>
+    <meta name="description"
+        content="Discover FLAWLESS ERA - A premium luxury fashion brand focused on minimalism, elegance, and futuristic design.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;800&family=Orbitron:wght@600;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <!-- Centered Logo Section -->
+            <div class="logo-wrapper">
+                <a href="#" class="brand-logo">
+                    <!-- Stylized FE Logo -->
+                    <svg class="brand-icon" width="60" height="40" viewBox="0 0 60 40" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0H25L15 12H5L0 0Z" fill="#ff0022" />
+                        <path d="M5 18H20L25 24H10L5 18Z" fill="#ff0022" />
+                        <path d="M28 0H35V40H28L18 28L28 0Z" fill="#ff0022" />
+                        <path d="M42 0H52L60 10H50L42 0Z" fill="#ff0022" />
+                        <path d="M38 15H55L60 22H43L38 15Z" fill="#ff0022" />
+                        <path d="M38 28H58L60 35H40L38 28Z" fill="#ff0022" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="header-actions">
+                <button class="icon-btn cart-btn" aria-label="Cart">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="icon-btn menu-btn" aria-label="Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <!-- Background Image (Desktop) -->
+            <img src="assets/images/img6.PNG" alt="Hero Background" class="hero-image desktop-only" id="hero-image">
+            <!-- Background Video (Mobile) -->
+            <video autoplay loop muted playsinline class="hero-video mobile-only">
+                <source src="assets/images/flawless era.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <!-- Text and Button removed as requested -->
+    </section>
+
+    <!-- Aesthetic Slider Section -->
+    <section class="section aesthetic-slider-section">
+        <div class="container">
+            <h2 class="section-title fade-in-scroll">Trending Now</h2>
+            <div class="slider-container">
+                <div class="slider-track">
+                    <!-- Slide 1 -->
+                    <div class="slide active">
+                        <div class="slide-content">
+                            <img src="assets/images/img1.PNG" alt="Cyber Punk">
+                            <div class="slide-info">
+                                <h3>Cyber Punk</h3>
+                                <p>Future Tech Wear</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <div class="slide-content">
+                            <img src="assets/images/img 5.PNG" alt="Neon Nights">
+                            <div class="slide-info">
+                                <h3>Neon Nights</h3>
+                                <p>Urban Glow</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <div class="slide-content">
+                            <img src="assets/images/img3.PNG" alt="Dark Matter">
+                            <div class="slide-info">
+                                <h3>Dark Matter</h3>
+                                <p>Void Collection</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="slide">
+                        <div class="slide-content">
+                            <img src="assets/images/img 4.PNG" alt="Red Horizon">
+                            <div class="slide-info">
+                                <h3>Red Horizon</h3>
+                                <p>Dawn Series</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn" aria-label="Previous Slide">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M15 18l-6-6 6-6" />
+                        </svg>
+                    </button>
+                    <div class="slider-dots"></div>
+                    <button class="slider-btn next-btn" aria-label="Next Slide">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M9 18l6-6-6-6" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section id="collections" class="section collections">
+        <div class="container">
+            <h2 class="section-title fade-in-scroll">Collections</h2>
+            <div class="marquee-wrapper">
+                <div class="marquee-content">
+                    <!-- Original Set -->
+                    <div class="marquee-item">
+                        <img src="assets/images/img1.PNG" alt="Collection Item">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/images/img 5.PNG" alt="Collection Item">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/images/img3.PNG" alt="Collection Item">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/images/img 4.PNG" alt="Collection Item">
+                    </div>
+
+                    <!-- Duplicated Set for Loop -->
+                    <div class="marquee-item">
+                        <img src="assets/images/img1.PNG" alt="Collection Item">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/images/img 5.PNG" alt="Collection Item">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/images/img3.PNG" alt="Collection Item">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/images/img 4.PNG" alt="Collection Item">
+                    </div>
+
+                    <!-- Triplicated Set for Wide Screens -->
+                    <div class="marquee-item">
+                        <img src="assets/images/img1.PNG" alt="Collection Item">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/images/img 5.PNG" alt="Collection Item">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/images/img3.PNG" alt="Collection Item">
+                    </div>
+                    <div class="marquee-item">
+                        <img src="assets/images/img 4.PNG" alt="Collection Item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="shop" class="section products">
+        <div class="container-fluid" style="padding: 0 2rem;"> <!-- Wider container -->
+            <div class="section-header">
+                <h2 class="section-title fade-in-scroll">Featured Products</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="product-grid-modern">
+                <!-- Product 1 -->
+                <div class="product-card-modern fade-in-scroll">
+                    <div class="modern-image-wrapper">
+                        <div class="bookmark-icon">
+                            <svg width="20" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
+                                    fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="assets/images/img1.PNG" alt="Navy Bird Of Paradise Full Sleeve T-Shirt"
+                            class="modern-product-image">
+                        <!-- Dots for carousel indication if needed, hardcoded for visual match -->
+                        <div class="image-dots">
+                            <span class="img-dot active"></span>
+                            <span class="img-dot"></span>
+                            <span class="img-dot"></span>
+                        </div>
+                    </div>
+                    <div class="modern-product-details">
+                        <div class="info-left">
+                            <h3 class="modern-product-name">Navy Bird Of Paradise Full Sleeve T-Shirt</h3>
+                            <p class="modern-product-price">RS. 7,200</p>
+                        </div>
+                        <button class="modern-add-btn" aria-label="Add to Cart">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card-modern fade-in-scroll delay-1">
+                    <div class="modern-image-wrapper">
+                        <div class="bookmark-icon">
+                            <svg width="20" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
+                                    fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="assets/images/img 5.PNG" alt="Blu Wash Basic T-Shirt" class="modern-product-image">
+                        <div class="image-dots">
+                            <span class="img-dot active"></span>
+                            <span class="img-dot"></span>
+                        </div>
+                    </div>
+                    <div class="modern-product-details">
+                        <div class="info-left">
+                            <h3 class="modern-product-name">Blu Wash Basic T-Shirt</h3>
+                            <p class="modern-product-price">RS. 4,200</p>
+                        </div>
+                        <button class="modern-add-btn" aria-label="Add to Cart">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card-modern fade-in-scroll delay-2">
+                    <div class="modern-image-wrapper">
+                        <div class="bookmark-icon">
+                            <svg width="20" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
+                                    fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="assets/images/img3.PNG" alt="Aqua Bird Of Paradise Full Sleeve T-Shirt"
+                            class="modern-product-image">
+                    </div>
+                    <div class="modern-product-details">
+                        <div class="info-left">
+                            <h3 class="modern-product-name">Aqua Bird Of Paradise Full Sleeve T-Shirt</h3>
+                            <p class="modern-product-price">RS. 7,200</p>
+                        </div>
+                        <button class="modern-add-btn" aria-label="Add to Cart">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card-modern fade-in-scroll delay-3">
+                    <div class="modern-image-wrapper">
+                        <div class="bookmark-icon">
+                            <svg width="20" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
+                                    fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="assets/images/img 4.PNG" alt="Cold Garden T-Shirt" class="modern-product-image">
+                    </div>
+                    <div class="modern-product-details">
+                        <div class="info-left">
+                            <h3 class="modern-product-name">Cold Garden T-Shirt</h3>
+                            <p class="modern-product-price">RS. 4,700</p>
+                        </div>
+                        <button class="modern-add-btn" aria-label="Add to Cart">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand & Location Section -->
+    <section id="brand-location" class="section brand-location">
+        <div class="container">
+            <div class="brand-location-grid">
+                <!-- About Side -->
+                <div class="about-column fade-in-scroll">
+                    <h2 class="section-title title-left">The Brand</h2>
+                    <h3 class="brand-subtitle">Redefining Modern Identity</h3>
+                    <p class="about-description">
+                        FLAWLESS ERA is a movement born from the intersection of futuristic minimalism and street
+                        culture. We engineer garments for those who shape tomorrow, focusing on silhouette, silence, and
+                        power.
+                    </p>
+                    <p class="about-description">
+                        Our collections are designed in the void, where noise is eliminated, and only the essential
+                        remains. Join the era of uncompromising quality.
+                    </p>
+                    <a href="#" class="btn btn-outline">Read Our Story</a>
+                </div>
+
+                <!-- Location Side -->
+                <div class="location-column fade-in-scroll delay-1">
+                    <h2 class="section-title title-left">Locations</h2>
+                    <div class="location-card">
+                        <div class="map-wrapper">
+                            <!-- Dark Themed Map Style via Filter -->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1645564756836!5m2!1sen!2s"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="location-details">
+                            <div class="loc-info">
+                                <h4>New York Flagship</h4>
+                                <p>1095 Fifth Avenue, NY 10128</p>
+                            </div>
+                            <div class="loc-info">
+                                <h4>Opening Hours</h4>
+                                <p>Mon - Sun: 10:00 AM - 9:00 PM</p>
+                            </div>
+                            <button class="btn btn-primary btn-sm">Get Directions</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">FLAWLESS ERA</a>
+                    <p>Redefining Luxury.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Essentials</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="#" aria-label="Twitter">TW</a>
+                        <a href="#" aria-label="Facebook">FB</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 FLAWLESS ERA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
