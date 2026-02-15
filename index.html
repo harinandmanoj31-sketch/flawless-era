@@ -201,134 +201,220 @@
                 <a href="#" class="view-all">View All</a>
             </div>
             <div class="product-grid-modern">
-                <!-- Product 1 -->
-                <div class="product-card-modern fade-in-scroll">
-                    <div class="modern-image-wrapper">
-                        <div class="bookmark-icon">
-                            <svg width="20" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
-                                    fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <img src="assets/images/img1.PNG" alt="Navy Bird Of Paradise Full Sleeve T-Shirt"
-                            class="modern-product-image">
-                        <!-- Dots for carousel indication if needed, hardcoded for visual match -->
-                        <div class="image-dots">
-                            <span class="img-dot active"></span>
-                            <span class="img-dot"></span>
-                            <span class="img-dot"></span>
-                        </div>
-                    </div>
-                    <div class="modern-product-details">
-                        <div class="info-left">
-                            <h3 class="modern-product-name">Navy Bird Of Paradise Full Sleeve T-Shirt</h3>
-                            <p class="modern-product-price">RS. 7,200</p>
-                        </div>
-                        <button class="modern-add-btn" aria-label="Add to Cart">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <line x1="12" y1="5" x2="12" y2="19"></line>
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
+                <div id='collection-component-1771174536723'></div>
+                <script type="text/javascript">
+                    /*<![CDATA[*/
+                    (function () {
+                        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                        if (window.ShopifyBuy) {
+                            if (window.ShopifyBuy.UI) {
+                                ShopifyBuyInit();
+                            } else {
+                                loadScript();
+                            }
+                        } else {
+                            loadScript();
+                        }
+                        function loadScript() {
+                            var script = document.createElement('script');
+                            script.async = true;
+                            script.src = scriptURL;
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                            script.onload = ShopifyBuyInit;
+                        }
+                        function ShopifyBuyInit() {
+                            var client = ShopifyBuy.buildClient({
+                                domain: 'ckghy1-xd.myshopify.com',
+                                storefrontAccessToken: '70ef5b4f4a2c1404efec8d97826df078',
+                            });
+                            ShopifyBuy.UI.onReady(client).then(function (ui) {
+                                ui.createComponent('collection', {
+                                    id: '295344177214',
+                                    node: document.getElementById('collection-component-1771174536723'),
+                                    moneyFormat: 'Rs.%20%7B%7Bamount%7D%7D',
+                                    options: {
+                                        "product": {
+                                            "styles": {
+                                                "product": {
+                                                    "@media (min-width: 601px)": {
+                                                        "max-width": "calc(25% - 20px)",
+                                                        "margin-left": "20px",
+                                                        "margin-bottom": "50px",
+                                                        "width": "calc(25% - 20px)"
+                                                    },
+                                                    "img": {
+                                                        "height": "calc(100% - 15px)",
+                                                        "position": "absolute",
+                                                        "left": "0",
+                                                        "right": "0",
+                                                        "top": "0"
+                                                    },
+                                                    "imgWrapper": {
+                                                        "padding-top": "calc(75% + 15px)",
+                                                        "position": "relative",
+                                                        "height": "0"
+                                                    }
+                                                }
+                                            },
+                                            "buttonDestination": "checkout",
+                                            "text": {
+                                                "button": "Buy now"
+                                            }
+                                        },
+                                        "productSet": {
+                                            "styles": {
+                                                "products": {
+                                                    "@media (min-width: 601px)": {
+                                                        "margin-left": "-20px"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "modalProduct": {
+                                            "contents": {
+                                                "img": false,
+                                                "imgWithCarousel": true,
+                                                "button": false,
+                                                "buttonWithQuantity": true
+                                            },
+                                            "styles": {
+                                                "product": {
+                                                    "@media (min-width: 601px)": {
+                                                        "max-width": "100%",
+                                                        "margin-left": "0px",
+                                                        "margin-bottom": "0px"
+                                                    }
+                                                }
+                                            },
+                                            "text": {
+                                                "button": "Add to cart"
+                                            }
+                                        },
+                                        "option": {},
+                                        "cart": {
+                                            "text": {
+                                                "total": "Subtotal",
+                                                "button": "Checkout"
+                                            }
+                                        },
+                                        "toggle": {}
+                                    },
+                                });
+                            });
+                        }
+                    })();
+                    /*]]>*/
+                </script>
+            </div>
+            <img src="assets/images/img1.PNG" alt="Navy Bird Of Paradise Full Sleeve T-Shirt"
+                class="modern-product-image">
+            <!-- Dots for carousel indication if needed, hardcoded for visual match -->
+            <div class="image-dots">
+                <span class="img-dot active"></span>
+                <span class="img-dot"></span>
+                <span class="img-dot"></span>
+            </div>
+        </div>
+        <div class="modern-product-details">
+            <div class="info-left">
+                <h3 class="modern-product-name">Navy Bird Of Paradise Full Sleeve T-Shirt</h3>
+                <p class="modern-product-price">RS. 7,200</p>
+            </div>
+            <button class="modern-add-btn" aria-label="Add to Cart">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+            </button>
+        </div>
+        </div>
 
-                <!-- Product 2 -->
-                <div class="product-card-modern fade-in-scroll delay-1">
-                    <div class="modern-image-wrapper">
-                        <div class="bookmark-icon">
-                            <svg width="20" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
-                                    fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <img src="assets/images/img 5.PNG" alt="Blu Wash Basic T-Shirt" class="modern-product-image">
-                        <div class="image-dots">
-                            <span class="img-dot active"></span>
-                            <span class="img-dot"></span>
-                        </div>
-                    </div>
-                    <div class="modern-product-details">
-                        <div class="info-left">
-                            <h3 class="modern-product-name">Blu Wash Basic T-Shirt</h3>
-                            <p class="modern-product-price">RS. 4,200</p>
-                        </div>
-                        <button class="modern-add-btn" aria-label="Add to Cart">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <line x1="12" y1="5" x2="12" y2="19"></line>
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                            </svg>
-                        </button>
-                    </div>
+        <!-- Product 2 -->
+        <div class="product-card-modern fade-in-scroll delay-1">
+            <div class="modern-image-wrapper">
+                <div class="bookmark-icon">
+                    <svg width="20" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
+                            fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
                 </div>
-
-                <!-- Product 3 -->
-                <div class="product-card-modern fade-in-scroll delay-2">
-                    <div class="modern-image-wrapper">
-                        <div class="bookmark-icon">
-                            <svg width="20" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
-                                    fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <img src="assets/images/img3.PNG" alt="Aqua Bird Of Paradise Full Sleeve T-Shirt"
-                            class="modern-product-image">
-                    </div>
-                    <div class="modern-product-details">
-                        <div class="info-left">
-                            <h3 class="modern-product-name">Aqua Bird Of Paradise Full Sleeve T-Shirt</h3>
-                            <p class="modern-product-price">RS. 7,200</p>
-                        </div>
-                        <button class="modern-add-btn" aria-label="Add to Cart">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <line x1="12" y1="5" x2="12" y2="19"></line>
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Product 4 -->
-                <div class="product-card-modern fade-in-scroll delay-3">
-                    <div class="modern-image-wrapper">
-                        <div class="bookmark-icon">
-                            <svg width="20" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
-                                    fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <img src="assets/images/img 4.PNG" alt="Cold Garden T-Shirt" class="modern-product-image">
-                    </div>
-                    <div class="modern-product-details">
-                        <div class="info-left">
-                            <h3 class="modern-product-name">Cold Garden T-Shirt</h3>
-                            <p class="modern-product-price">RS. 4,700</p>
-                        </div>
-                        <button class="modern-add-btn" aria-label="Add to Cart">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <line x1="12" y1="5" x2="12" y2="19"></line>
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                            </svg>
-                        </button>
-                    </div>
+                <img src="assets/images/img 5.PNG" alt="Blu Wash Basic T-Shirt" class="modern-product-image">
+                <div class="image-dots">
+                    <span class="img-dot active"></span>
+                    <span class="img-dot"></span>
                 </div>
             </div>
+            <div class="modern-product-details">
+                <div class="info-left">
+                    <h3 class="modern-product-name">Blu Wash Basic T-Shirt</h3>
+                    <p class="modern-product-price">RS. 4,200</p>
+                </div>
+                <button class="modern-add-btn" aria-label="Add to Cart">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card-modern fade-in-scroll delay-2">
+            <div class="modern-image-wrapper">
+                <div class="bookmark-icon">
+                    <svg width="20" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
+                            fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <img src="assets/images/img3.PNG" alt="Aqua Bird Of Paradise Full Sleeve T-Shirt"
+                    class="modern-product-image">
+            </div>
+            <div class="modern-product-details">
+                <div class="info-left">
+                    <h3 class="modern-product-name">Aqua Bird Of Paradise Full Sleeve T-Shirt</h3>
+                    <p class="modern-product-price">RS. 7,200</p>
+                </div>
+                <button class="modern-add-btn" aria-label="Add to Cart">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card-modern fade-in-scroll delay-3">
+            <div class="modern-image-wrapper">
+                <div class="bookmark-icon">
+                    <svg width="20" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M5 21L12 17L19 21V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21Z"
+                            fill="white" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <img src="assets/images/img 4.PNG" alt="Cold Garden T-Shirt" class="modern-product-image">
+            </div>
+            <div class="modern-product-details">
+                <div class="info-left">
+                    <h3 class="modern-product-name">Cold Garden T-Shirt</h3>
+                    <p class="modern-product-price">RS. 4,700</p>
+                </div>
+                <button class="modern-add-btn" aria-label="Add to Cart">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        </div>
         </div>
     </section>
 
